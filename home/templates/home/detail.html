@@ -1,0 +1,67 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container my-5 ">
+<div class="card" >
+    <img src="https://picsum.photos/200" class="card-img-top" alt="..." width="100px" height="500px">
+    <div class="card-body">
+      <h5 class="card-title text-center">Product Name</h5>
+      <hr>
+      <!-- <div class="row m-4">
+          <div class="col-md"><img src="{% static 'images/flipkart.png' %}" width="65" height="65" class="img-thumbnail " alt="...">
+            <a href="#" class="btn btn-primary">Go somewhere</a></div>
+          <div class="col"><img src="{% static 'images/amazon.jpg' %}" width="45" height="45" class="img-thumbnail " alt="...">
+            <a href="#" class="btn btn-primary">Go somewhere</a></div>
+      
+    </div>
+    
+    <div class="row m-4">
+        <div class="col"><img src="{% static 'images/snapdeal.jpg' %}" width="45" height="45" class="img-thumbnail " alt="...">
+          <a href="#" class="btn btn-primary">Go somewhere</a></div>
+        <div class="col"><img src="{% static 'images/digital.webp' %}"  width="45" height="45" class="img-thumbnail " alt="...">
+          <a href="#" class="btn btn-primary">Go somewhere</a></div>
+    
+  </div> -->
+  <div class="row m-4">
+      <div class="col-3">
+        <div class="card animate__animated animate__bounceIn animate__delay-1s" style="width: 12rem;">
+            <img src="{% static 'images/flipkart.png' %}"  height="120" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center ">Price</h5>
+              <div class="d-grid gap-2"><a href="#" class="btn btn-success">Go somewhere</a></div>
+            </div>
+          </div>
+      </div>
+      <div class="col-3">
+        <div class="card animate__animated animate__bounceIn animate__delay-1s" style="width: 12rem;">
+            <img src="{% static 'images/amazon.jpg' %}"  height="120" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Price</h5>
+              <div class="d-grid gap-2"><a href="#" class="btn btn-success">Go somewhere</a></div>
+            </div>
+          </div>
+      </div>
+      <div class="col-3">
+        <div class="card animate__animated animate__bounceIn animate__delay-1s" style="width: 12rem;">
+            <img src="{% static 'images/digital.webp' %}"  height="120" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Price</h5>
+              <div class="d-grid gap-2"><a href="#" class="btn btn-success">Go somewhere</a></div>
+            </div>
+          </div>
+      </div>
+      <div class="col-3">
+        <div class="card animate__animated animate__bounceIn animate__delay-1s" style="width: 12rem;">
+            <img src="{% static 'images/snapdeal.jpg' %}"  height="120" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Price</h5>
+              <div class="d-grid gap-2"><a href="#" class="btn btn-success">Go somewhere</a></div>
+            </div>
+          </div>
+      </div>
+  </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
